@@ -1,0 +1,31 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  height: 100%;
+  width: 100%;
+  background-color: var(--fondo-blanco);
+  border-radius: 40px 40px 40px 40px;
+}
+
+
+
+.containerFilter {
+  display: block;
+  width: 100%;
+  margin: 15px 30px 30px 30px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}

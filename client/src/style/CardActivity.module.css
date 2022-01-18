@@ -1,0 +1,29 @@
+.container {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--fondo-blanco);
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px -3px var(--fondo-fuerte);
+  transition: all 0.3s linear;
+}
+
+.container:hover {
+
+  transform: scale(1.1);
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 7px;
+  color: var(--fondo-fuerte);
+}
+
+.information {
+  font-size: 17px;
+  text-align: center;
+}

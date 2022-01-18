@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  padding: 25px;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 0 5px 0 5px;
+  padding: 4px;
+  background-color: var(--fondo-blanco);
+  border-radius: 7px;
+  border: solid var(--fondo-fuerte) .5px;
+  color: var(--fondo-fuerte);
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  background-color: var(--fondo-fuerte);
+  color: var(--fondo-blanco);
+}
