@@ -24,7 +24,6 @@ Adicionalmente será necesario que creen desde psql una base de datos llamada `c
 El contenido de `client` fue creado usando: Create React App.
 
 
-#### Tecnologías utilizadas:
 
 <h3 align="left">Lenguajes y Herramientas:</h3>
       <img/>
